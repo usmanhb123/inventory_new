@@ -1,7 +1,7 @@
 <?php include('./config/db.php') ?>
 <?php include('./layouts/header.php'); ?>
-<?php
-
+<?p
+z
 if (isset($_SESSION['user'])) {
     header('Location: app');
     exit;
