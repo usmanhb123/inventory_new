@@ -1,12 +1,11 @@
 <?php include('./config/db.php') ?>
 <?php include('./layouts/header.php'); ?>
-<?p
-z
+<?php
+
 if (isset($_SESSION['user'])) {
     header('Location: app');
     exit;
 }
-
 
 
 if (isset($_POST['login'])) {
